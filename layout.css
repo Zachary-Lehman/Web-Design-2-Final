@@ -1,0 +1,16 @@
+main{
+    display: grid;
+
+}
+
+.glossary{
+    grid-template-columns: 40px 50px auto 50px 40px;
+    grid-template-rows: 25% 100px auto;   
+
+}
+
+article{
+    grid-template-columns: 20px 10px auto 50px 40px;
+    grid-template-rows: 25% 100px auto;   
+
+}

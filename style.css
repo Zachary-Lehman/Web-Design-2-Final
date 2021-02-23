@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'optidynamo';
+    src: url('optidynamo-webfont.woff2') format('woff2'),
+         url('optidynamo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'jackinput';
+    src: url('jackinput-webfont.woff2') format('woff2'),
+         url('jackinput-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    font-family: optidynamo;
+    font-size: 5em;
+    margin-top: 1em;
+    font-style: italic;
+}
+
+h2{
+    font-family: Arial;
+    font-size: 3.5em;
+    font-weight: 900;
+    color: #494540;
+}
+
+hr{
+    border-style: solid;
+    border-width: 10px;
+}
+
+#trackhead{
+    margin-top: 2cm;
+}
+
+.subhead{
+    font-size: .75em;
+    color: #423e39;
+}
+
+body{
+    background-color: #EFABC0;
+    color:#3B3734;
+    text-align: center;
+}
+
+.cover{
+    width: 30%;
+    height: auto;
+    margin-top: 2cm;
+}
+
+p{
+    font-family: 'jackinput';
+    font-size: 1.75em;
+    margin: 4em;
+}
+
+.navbar{
+    font-family: Arial;
+    font-weight: 900;
+    font-size: 2.5em;
+    position: fixed;
+    width: 98%;
+    top: 0px;
+    background-color:  #EFABC0;
+    margin: 0px;
+    border-style: solid;
+    border-width: 7px;
+    list-style-type: none;
+}
+
+ul{
+    margin: 5px;
+}
+
+.nav{
+    display: inline;
+}
+
+a{
+    color: #3B3734;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#58534e; 
+}
+
+
+.glossary{
+    text-align: start;
+    border-style: solid;
+    border-width: 5px;
+    width: 200px;
+    height: auto;
+    margin-top: 5em;
+    font-family: Arial;
+    font-size: 1.35em;
+    font-weight: 900;
+    color: #494540;
+    line-height: 150%;
+    float: left;
+}
+
+#trackhead{
+    float: initial;
+
+}
+
+.inlink{
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+#histhead{
+    margin-top: 2cm;
+
+}
