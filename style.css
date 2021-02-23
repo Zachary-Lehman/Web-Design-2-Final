@@ -33,9 +33,6 @@ hr{
     border-width: 10px;
 }
 
-#trackhead{
-    margin-top: 2cm;
-}
 
 .subhead{
     font-size: .75em;
@@ -49,8 +46,8 @@ body{
 }
 
 .cover{
-    width: 30%;
-    height: auto;
+    width: 25em;
+    height: 100%;
     margin-top: 2cm;
 }
 
@@ -109,6 +106,7 @@ a:hover{
 
 #trackhead{
     float: initial;
+    margin-top: 4.5cm;
 
 }
 
@@ -118,6 +116,10 @@ a:hover{
 }
 
 #histhead{
-    margin-top: 2cm;
+    margin-top: 4.5cm;
 
+}
+
+#purchasehead{
+    margin-top: 4.5cm;
 }
